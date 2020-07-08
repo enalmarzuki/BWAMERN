@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import propTypes from "prop-types";
 
 export default function Button(props) {
@@ -45,14 +45,16 @@ export default function Button(props) {
       );
     } else {
       return (
-        <Link
-          to={props.href}
-          className={className.join(" ")}
-          style={props.style}
-          onClick={onClick}
-        >
-          {props.children}
-        </Link>
+        <Router>
+          <Link
+            to={props.href}
+            className={className.join(" ")}
+            style={props.style}
+            onClick={onClick}
+          >
+            {props.children}
+          </Link>
+        </Router>
       );
     }
   }

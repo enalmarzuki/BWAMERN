@@ -215,6 +215,10 @@ footer {
   border-top: 1px solid $gray-200;
   padding-top: 50px;
 
+  .footer-title {
+    font-size: 18px;
+  }
+
   .brand-tagline {
     color: $gray-500;
     font-weight: 300;

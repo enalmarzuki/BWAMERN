@@ -9,6 +9,21 @@ export default function Header(props) {
     return props.location.pathname === path ? " active" : "";
   };
 
+  if (props.isCenter)
+    return (
+      <Fade>
+        <header className="spacing-sm mb-5">
+          <div className="container">
+            <nav className="navbar navbar-expand-lg navbar-right">
+              <Button className="brand-text-icon mx-auto" href="" type="link">
+                Stay<span className="text-gray-900">cation.</span>
+              </Button>
+            </nav>
+          </div>
+        </header>
+      </Fade>
+    );
+
   return (
     <Fade>
       <header className="spacing-sm">

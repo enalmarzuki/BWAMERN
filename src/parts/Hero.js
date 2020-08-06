@@ -4,9 +4,6 @@ import numberFormat from "utils/formatNumber";
 
 import ImageHero from "assets/images/img-hero.jpg";
 import ImageHero_Frame from "assets/images/img-hero-frame.jpg";
-import IconCities from "assets/images/icons/icon-cities.svg";
-import IconTraveler from "assets/images/icons/icon-traveler.svg";
-import IconTreasure from "assets/images/icons/icon-treasure.svg";
 
 import Button from "elements/Button";
 
@@ -47,7 +44,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconTraveler}
+                  src="/images/icons/icon-traveler.svg"
                   alt={`${props.data.travelers} Travelers`}
                 />
                 <h6 className="mt-3 font-weight-bold font-weight-bold">
@@ -62,7 +59,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconTreasure}
+                  src="/images/icons/icon-treasure.svg"
                   alt={`${props.data.treasures} Treasures`}
                 />
                 <h6 className="mt-3 font-weight-bold">
@@ -77,7 +74,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconCities}
+                  src="/images/icons/icon-cities.svg"
                   alt={`${props.data.cities} Cities`}
                 />
                 <h6 className="mt-3 font-weight-bold">

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 
 import Header from "parts/Header";
+import Loading from "elements/loading";
 import Hero from "parts/Hero";
 import MostPicked from "parts/MostPicked";
 import Categories from "parts/Categories";
@@ -14,6 +15,9 @@ class LandingPage extends Component {
   constructor(props) {
     super(props);
     this.refMostPicked = React.createRef();
+    this.state = {
+      loading: true,
+    };
   }
 
   componentDidMount() {
@@ -26,7 +30,7 @@ class LandingPage extends Component {
 
   render() {
     const { page } = this.props;
-    // console.log(page);
+    console.log(page);
 
     if (!page.hasOwnProperty("landingPage")) return null;
 
@@ -34,6 +38,7 @@ class LandingPage extends Component {
       <>
         <Header {...this.props}></Header>
         <Hero refMostPicked={this.refMostPicked} data={page.landingPage.hero} />
+        {/* <Loading /> */}
         <MostPicked
           refMostPicked={this.refMostPicked}
           data={page.landingPage.mostPicked}

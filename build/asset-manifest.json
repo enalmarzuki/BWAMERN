@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.772ddfa6.chunk.css",
+    "main.js": "/static/js/main.105ae9cc.chunk.js",
+    "main.js.map": "/static/js/main.105ae9cc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dd9a29b7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dd9a29b7.js.map",
+    "static/css/2.3848162f.chunk.css": "/static/css/2.3848162f.chunk.css",
+    "static/js/2.508ffd64.chunk.js": "/static/js/2.508ffd64.chunk.js",
+    "static/js/2.508ffd64.chunk.js.map": "/static/js/2.508ffd64.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.24d61ecb998473f60a619e29b82c11e1.js": "/precache-manifest.24d61ecb998473f60a619e29b82c11e1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3848162f.chunk.css.map": "/static/css/2.3848162f.chunk.css.map",
+    "static/css/main.772ddfa6.chunk.css.map": "/static/css/main.772ddfa6.chunk.css.map",
+    "static/js/2.508ffd64.chunk.js.LICENSE.txt": "/static/js/2.508ffd64.chunk.js.LICENSE.txt",
+    "static/media/completed.jpg": "/static/media/completed.c6ccd474.jpg",
+    "static/media/icon_calendar.svg": "/static/media/icon_calendar.67e25a39.svg",
+    "static/media/img-hero-frame.jpg": "/static/media/img-hero-frame.da8d8ac1.jpg",
+    "static/media/img-hero.jpg": "/static/media/img-hero.8b39aa23.jpg",
+    "static/media/loading.gif": "/static/media/loading.4e80f869.gif",
+    "static/media/logo-bca.jpg": "/static/media/logo-bca.e1f52ffd.jpg",
+    "static/media/logo-mandiri.jpg": "/static/media/logo-mandiri.8c44d8ba.jpg",
+    "static/media/index.scss": "/static/media/star.11a62c71.svg",
+    "static/media/testimonial-landingpages-frame.jpg": "/static/media/testimonial-landingpages-frame.3910acc1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd9a29b7.js",
+    "static/css/2.3848162f.chunk.css",
+    "static/js/2.508ffd64.chunk.js",
+    "static/css/main.772ddfa6.chunk.css",
+    "static/js/main.105ae9cc.chunk.js"
+  ]
+}

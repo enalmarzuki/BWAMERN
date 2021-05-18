@@ -50,7 +50,7 @@ export default function Button(props) {
           to={props.href}
           className={className.join(" ")}
           style={props.style}
-          onClick={onClick}
+          onClick={props.onClick}
         >
           {props.children}
         </Link>

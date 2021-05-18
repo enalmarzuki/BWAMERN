@@ -2,6 +2,8 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 export default function Meta({ data, current }) {
+  console.log("META data", data);
+  console.log("META current", current);
   return (
     <Fade delay={300}>
       <div className="text-center" style={{ marginBottom: 30 }}>
